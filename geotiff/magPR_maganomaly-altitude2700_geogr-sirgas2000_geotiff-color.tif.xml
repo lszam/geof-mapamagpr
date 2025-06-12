@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xsi:schemaLocation="http://www.isotc211.org/2005/gmd ../schemas/iso19139fra/gmd/gmd.xsd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:map="urn:brgm:mapping" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco">
+	<geosoft xmlns="http://www.geosoft.com/schema/geo">
+		<dataset version="1">
+			<title>magPR_maganomaly-altitude2700_geogr-sirgas2000_geotiff-color</title>
+			<file_format>tif</file_format>
+			<project_name>g:\meu drive\pesquisa\_artigos_resumos\artigomagpr\mapa_magnético_do_pr\final\mag_pr_final.gpf</project_name>
+			<data_created_by>DESKTOP-LUIZEMA\Luizemara</data_created_by>
+			<data_creation_date>2025-06-12</data_creation_date>
+			<metadata_created_by>DESKTOP-LUIZEMA\Luizemara</metadata_created_by>
+			<metadata_creation_date>2025-06-12</metadata_creation_date>
+			<lineage>
+				<process name="gridrepj.gx" displaystring="Reproject grids" user="DESKTOP-LUIZEMA\Luizemara" version="Version 2023.2 (20231121.28)" date="2025-06-12" time="07:57:32">
+					<parameter name="GRIDREPJ::NEWCELL" value="0.00243" type="double"/>
+					<parameter name="GRIDREPJ::NEWGRID" value=".\geotiff\magPR_maganomaly-altitude2700_geogr-sirgas2000_geotiff-color.tif(TIF)" type="string"/>
+					<parameter name="GRIDREPJ::NEWIPJ_XML" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;&lt;projection type=&quot;GEOGRAPHIC&quot; name=&quot;SIRGAS 2000&quot; ellipsoid=&quot;GRS 1980&quot; datum=&quot;SIRGAS 2000&quot; wellknown_epsg=&quot;4674&quot; datumtrf=&quot;SIRGAS 2000 to WGS 84 (1)&quot; datumtrf_epsg=&quot;15894&quot; datumtrf_description=&quot;[SIRGAS 2000] (1m) Latin America - SIRGAS 2000 by country&quot; radius=&quot;6378137&quot; eccentricity=&quot;0.081819191042815792&quot; xmlns=&quot;http://www.geosoft.com/schema/geo&quot;&gt;&#xA;	&lt;shift x=&quot;0&quot; y=&quot;0&quot; z=&quot;0&quot;/&gt;&#xA;	&lt;units name=&quot;dega&quot; unit_scale=&quot;1&quot;/&gt;&#xA;&lt;/projection&gt;&#xA;" type="string"/>
+					<parameter name="GRIDREPJ::OLDGRID" value=".\geotiff\magPR_magnetic-anomaly-altitude2700_geotiff-color.tif(TIF)" type="string"/>
+					<parameter name="GRIDREPJ::OLDIPJ_XML" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;&lt;projection type=&quot;TRANSVERSE_MERCATOR&quot; name=&quot;SAD69 / UTM zone 22S&quot; wellknown_epsg=&quot;29192&quot; projection=&quot;UTM zone 22S&quot; ellipsoid=&quot;GRS 1967 Modified&quot; datum=&quot;SAD69&quot; datumtrf=&quot;SAD69 to WGS 84 (1)&quot; datumtrf_epsg=&quot;1864&quot; datumtrf_description=&quot;[SAD69] (19m) South America - onshore north of 45Â°S&quot; radius=&quot;6378160&quot; eccentricity=&quot;0.081820179996059894&quot; xmlns=&quot;http://www.geosoft.com/schema/geo&quot;&gt;&#xA;	&lt;shift x=&quot;-57&quot; y=&quot;1&quot; z=&quot;-41&quot;/&gt;&#xA;	&lt;parameters scale=&quot;0.9996&quot; false_east=&quot;500000&quot; false_north=&quot;10000000&quot; lat_origin=&quot;0&quot; lon_origin=&quot;-51&quot;/&gt;&#xA;	&lt;units name=&quot;m&quot; unit_scale=&quot;1&quot;/&gt;&#xA;&lt;/projection&gt;&#xA;" type="string"/>
+					<parameter name="IPJSET::PROJECTION" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;&lt;projection type=&quot;GEOGRAPHIC&quot; name=&quot;SIRGAS 2000&quot; ellipsoid=&quot;GRS 1980&quot; datum=&quot;SIRGAS 2000&quot; wellknown_epsg=&quot;4674&quot; datumtrf=&quot;SIRGAS 2000 to WGS 84 (1)&quot; datumtrf_epsg=&quot;15894&quot; datumtrf_description=&quot;[SIRGAS 2000] (1m) Latin America - SIRGAS 2000 by country&quot; radius=&quot;6378137&quot; eccentricity=&quot;0.081819191042815792&quot; xmlns=&quot;http://www.geosoft.com/schema/geo&quot;&gt;&#xA;	&lt;shift x=&quot;0&quot; y=&quot;0&quot; z=&quot;0&quot;/&gt;&#xA;	&lt;units name=&quot;dega&quot; unit_scale=&quot;1&quot;/&gt;&#xA;&lt;/projection&gt;&#xA;" type="string"/>
+					<source name="g:\meu drive\Pesquisa\_artigos_resumos\artigomagpr\mapa_magnético_do_pr\Final\geotiff\magPR_magnetic-anomaly-altitude2700_geotiff-color.tif" type="GRID">
+						<lineage>
+							<process name="MapExport" user="DESKTOP-LUIZEMA\Luizemara" version="Version 2023.2 (20231121.28)" date="2025-06-12" time="07:48:55">
+								<parameter name="MAPEXPORT.ACTIVEVIEW" value="Data" type="string"/>
+								<parameter name="MAPEXPORT.BITS" value="24" type="integer"/>
+								<parameter name="MAPEXPORT.CELLSIZE" value="254.000038253018" type="double"/>
+								<parameter name="MAPEXPORT.DITHER" value="FloydsteinDithering" type="string"/>
+								<parameter name="MAPEXPORT.FORMAT" value="GeoTIFF (*.tif)" type="string"/>
+								<parameter name="MAPEXPORT.MAXX" value="136.909379381114" type="double"/>
+								<parameter name="MAPEXPORT.MAXY" value="114.877782699126" type="double"/>
+								<parameter name="MAPEXPORT.MINX" value="-4.50179932201806" type="double"/>
+								<parameter name="MAPEXPORT.MINY" value="16.9941974406324" type="double"/>
+								<parameter name="MAPEXPORT.NAME" value=".\geotiff\magPR_magnetic-anomaly-altitude2700_geotiff-color.tif" type="string"/>
+								<parameter name="MAPEXPORT.OPTIONS" value="" type="string"/>
+								<parameter name="MAPEXPORT.OUTPUT" value="FILE" type="string"/>
+								<parameter name="MAPEXPORT.SELECTEDGROUP" value="AGG_UW 2700_magPR_08abr2022_utm22S-sirgas2000" type="string"/>
+								<parameter name="MAPEXPORT.SIZEX" value="2784" type="integer"/>
+								<parameter name="MAPEXPORT.SIZEY" value="1927" type="integer"/>
+								<parameter name="MAPEXPORT.VIEWS" value="2" type="integer"/>
+							</process>
+						</lineage>
+					</source>
+				</process>
+			</lineage>
+			<georeference>
+				<dataextents>
+					<extent2d minx="-54.95688" miny="-26.89524" maxx="-47.7009" maxy="-22.34142"/>
+				</dataextents>
+				<projection type="GEOGRAPHIC" name="SIRGAS 2000" ellipsoid="GRS 1980" datum="SIRGAS 2000" wellknown_epsg="4674" datumtrf="SIRGAS 2000 to WGS 84 (1)" datumtrf_epsg="15894" datumtrf_description="[SIRGAS 2000] (1m) Latin America - SIRGAS 2000 by country" radius="6378137" eccentricity="0.081819191042815792">
+					<shift x="0" y="0" z="0"/>
+					<units name="dega" unit_scale="1"/>
+				</projection>
+			</georeference>
+		</dataset>
+	</geosoft>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:processStep xlink:type="Geosoft Process" xlink:title="gridrepj.gx">
+						<gmd:LI_ProcessStep>
+							<gmd:dateTime>
+								<gco:DateTime>2025-06-12T07:57:32</gco:DateTime>
+							</gmd:dateTime>
+							<gmd:processor>
+								<gmd:CI_ResponsibleParty>
+									<gmd:individualName>
+										<gco:CharacterString>DESKTOP-LUIZEMA\Luizemara</gco:CharacterString>
+									</gmd:individualName>
+								</gmd:CI_ResponsibleParty>
+							</gmd:processor>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDREPJ::NEWCELL" xlink:title="0.00243">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDREPJ::NEWGRID" xlink:title=".\geotiff\magPR_maganomaly-altitude2700_geogr-sirgas2000_geotiff-color.tif(TIF)">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDREPJ::NEWIPJ_XML" xlink:title="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;&lt;projection type=&quot;GEOGRAPHIC&quot; name=&quot;SIRGAS 2000&quot; ellipsoid=&quot;GRS 1980&quot; datum=&quot;SIRGAS 2000&quot; wellknown_epsg=&quot;4674&quot; datumtrf=&quot;SIRGAS 2000 to WGS 84 (1)&quot; datumtrf_epsg=&quot;15894&quot; datumtrf_description=&quot;[SIRGAS 2000] (1m) Latin America - SIRGAS 2000 by country&quot; radius=&quot;6378137&quot; eccentricity=&quot;0.081819191042815792&quot; xmlns=&quot;http://www.geosoft.com/schema/geo&quot;&gt;&#xA;	&lt;shift x=&quot;0&quot; y=&quot;0&quot; z=&quot;0&quot;/&gt;&#xA;	&lt;units name=&quot;dega&quot; unit_scale=&quot;1&quot;/&gt;&#xA;&lt;/projection&gt;&#xA;">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDREPJ::OLDGRID" xlink:title=".\geotiff\magPR_magnetic-anomaly-altitude2700_geotiff-color.tif(TIF)">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDREPJ::OLDIPJ_XML" xlink:title="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;&lt;projection type=&quot;TRANSVERSE_MERCATOR&quot; name=&quot;SAD69 / UTM zone 22S&quot; wellknown_epsg=&quot;29192&quot; projection=&quot;UTM zone 22S&quot; ellipsoid=&quot;GRS 1967 Modified&quot; datum=&quot;SAD69&quot; datumtrf=&quot;SAD69 to WGS 84 (1)&quot; datumtrf_epsg=&quot;1864&quot; datumtrf_description=&quot;[SAD69] (19m) South America - onshore north of 45Â°S&quot; radius=&quot;6378160&quot; eccentricity=&quot;0.081820179996059894&quot; xmlns=&quot;http://www.geosoft.com/schema/geo&quot;&gt;&#xA;	&lt;shift x=&quot;-57&quot; y=&quot;1&quot; z=&quot;-41&quot;/&gt;&#xA;	&lt;parameters scale=&quot;0.9996&quot; false_east=&quot;500000&quot; false_north=&quot;10000000&quot; lat_origin=&quot;0&quot; lon_origin=&quot;-51&quot;/&gt;&#xA;	&lt;units name=&quot;m&quot; unit_scale=&quot;1&quot;/&gt;&#xA;&lt;/projection&gt;&#xA;">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="IPJSET::PROJECTION" xlink:title="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;&lt;projection type=&quot;GEOGRAPHIC&quot; name=&quot;SIRGAS 2000&quot; ellipsoid=&quot;GRS 1980&quot; datum=&quot;SIRGAS 2000&quot; wellknown_epsg=&quot;4674&quot; datumtrf=&quot;SIRGAS 2000 to WGS 84 (1)&quot; datumtrf_epsg=&quot;15894&quot; datumtrf_description=&quot;[SIRGAS 2000] (1m) Latin America - SIRGAS 2000 by country&quot; radius=&quot;6378137&quot; eccentricity=&quot;0.081819191042815792&quot; xmlns=&quot;http://www.geosoft.com/schema/geo&quot;&gt;&#xA;	&lt;shift x=&quot;0&quot; y=&quot;0&quot; z=&quot;0&quot;/&gt;&#xA;	&lt;units name=&quot;dega&quot; unit_scale=&quot;1&quot;/&gt;&#xA;&lt;/projection&gt;&#xA;">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Source" xlink:role="GRID" xlink:title="g:\meu drive\Pesquisa\_artigos_resumos\artigomagpr\mapa_magnético_do_pr\Final\geotiff\magPR_magnetic-anomaly-altitude2700_geotiff-color.tif">
+								<gmd:LI_Source/>
+							</gmd:source>
+						</gmd:LI_ProcessStep>
+					</gmd:processStep>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>magPR_maganomaly-altitude2700_geogr-sirgas2000_geotiff-color</gco:CharacterString>
+					</gmd:title>
+					<gmd:collectiveTitle>
+						<gco:CharacterString>g:\meu drive\pesquisa\_artigos_resumos\artigomagpr\mapa_magnético_do_pr\final\mag_pr_final.gpf</gco:CharacterString>
+					</gmd:collectiveTitle>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2025-6-12</gco:Date>
+							</gmd:date>
+						</gmd:CI_Date>
+					</gmd:date>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:resourceFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>tif</gco:CharacterString>
+					</gmd:name>
+				</gmd:MD_Format>
+			</gmd:resourceFormat>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+						<gco:CharacterString>DESKTOP-LUIZEMA\Luizemara</gco:CharacterString>
+					</gmd:individualName>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-54.956880000000019</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>-47.700899999999983</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-26.89523999922821</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>-22.34141999932725</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>DESKTOP-LUIZEMA\Luizemara</gco:CharacterString>
+			</gmd:individualName>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2025-6-12</gco:Date>
+	</gmd:dateStamp>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:codeSpace>
+						<gco:CharacterString>ESRI</gco:CharacterString>
+					</gmd:codeSpace>
+					<gmd:code>
+						<gco:CharacterString>GEOGCS["GCS_SIRGAS_2000",DATUM["D_SIRGAS_2000",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433],AUTHORITY["EPSG",4674]]</gco:CharacterString>
+					</gmd:code>
+					<gmd:version>
+						<gco:CharacterString>1</gco:CharacterString>
+					</gmd:version>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+</gmd:MD_Metadata>
